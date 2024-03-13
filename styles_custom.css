@@ -1,0 +1,327 @@
+:root {
+    --link-hover-color: #c2f23c;
+}
+
+.lc-text-block_size_s42 {
+    color: #fff;
+}
+
+#tabs-text .lc-text-block_bpsize_s28 {
+    color: #fff;
+}
+
+.lc-text.lc-text_column_l.lc-text_width {
+    margin-top: 179px;
+}
+
+.lc-tabs__container-wrapper {
+    background: #282828 !important;
+}
+
+body {
+    background-color: #282828;
+}
+
+.service_turbo-lpc .lc-section {
+    max-width: 1200px;
+}
+
+.lc-tabs {
+    justify-content: center;
+}
+
+.lc-header-lpc__wrapper_border {
+    background-color: #282828;
+    border: 0px;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, .12)
+}
+
+.lc-navigation-menu__item {
+    padding-right: 35px;
+
+}
+
+#tabs-content .lc-text-block_bpsize_s28 {
+    font-size: 30px;
+    color: #fff;
+}
+
+#tabs-content .lc-features__items .lc-features__col_3 {
+    margin: 5px;
+    width: 32.42%;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.lc-navigation-menu .lc-navigation-menu__link_active {
+    color: #fff;
+}
+
+.lc-navigation-menu {
+    color: #fff;
+}
+
+.lc-navigation-menu .lc-navigation-menu__link:hover {
+    color: #c2f23c
+}
+
+#tabs-content .lc-tabs__gradient.lc-tabs__gradient_right {
+    display: none;
+}
+
+#tabs-content .lc-tabs__gradient {
+    display: none;
+}
+
+.lc-tabs__icon {
+    width: 250px;
+    height: 250px;
+}
+
+.lc-features__base-wrapper {
+    max-width: none;
+}
+
+#cards-group [data-spacer-id="image"] {
+
+    background-color: #282828;
+}
+
+#cards-group .lc-features__item {
+    background-color: #282828 !important;
+}
+
+#cards .lc-text-block_bpsize_s24 {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    top: -5.5rem;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+#cards .lc-features_inited .lc-features__image {
+    top: 0px;
+}
+
+#cards .lc-features__item {
+    padding: 10px;
+}
+
+#cards .lc-features__back-side .lc-styled-text {
+    color: #282828;
+    background-color: #fff;
+    padding: 15px 15px;
+    height: 169px;
+    border-radius: 16px;
+    position: fixed;
+    /** Тут в карточках, по-хорошему, нужно делать текст не больше 6 строк, но это уже задача копирайтера **/
+}
+
+.lc-section .lc-tabs__container-wrapper {
+    display: grid;
+    justify-items: stretch;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.lc-section .lc-tabs__tab {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 30%;
+    height: 100%;
+}
+
+.lc-tabs__icon {
+    width: 300px;
+}
+
+.lc-tabs__gradient {
+    display: none;
+}
+
+.lc-section .lc-tabs__tab .lc-text-block {
+    text-align: center;
+}
+
+.lc-tabs__arrow {
+    display: none;
+}
+
+.lc-tabs__arrow {
+    display: none;
+}
+
+.lc-section {
+    padding: 0px;
+}
+
+.lc-tabs__tab .lc-styled-text__text_align_left {
+    text-align: center;
+}
+
+.lc-tabs__tab .lc-text-block_bpsize_s28 {
+    color: #fff;
+}
+
+.lc-tabs_with-paddings .lc-tabs__tab {
+    padding: 12px 12px;
+}
+
+.lc-tabs__tab.lc-tabs__tab_theme_textWithIcon {
+    border: 0px solid transparent;
+    transition: 0.2s;
+    border-radius: 16px;
+    margin: 0 6px 0 6px;
+}
+
+.lc-tabs__tab.lc-tabs__tab_theme_textWithIcon:hover {
+    border: 3px solid #c2f23c;
+    border-radius: 16px;
+    max-width: 31%;
+}
+
+
+.lc-tabs__underline-container {
+    height: 320px;
+    width: 100%;
+}
+
+#header {
+    max-width: none;
+}
+
+#faq .lc-styled-text__text {
+    color: #fff;
+}
+
+#tabs .lc-offsets {
+    margin-bottom: -30px;
+}
+
+.lc-footer-columns__bottom-level {
+    justify-content: center;
+}
+
+.lc-footer-columns-copyright {
+    color: #C2F23C;
+}
+
+#icon-faq-arrow {
+    display: none;
+}
+
+#faq {
+    padding-bottom: 20%;
+}
+
+#faq .lc-icon {
+    color: #C2F23C !important;
+}
+
+#icon-burder {
+    display: none;
+}
+
+@media (hover: hover) {
+    a:hover {
+        color: #C2F23C !important;
+    }
+}
+
+.lc-header-lpc__menu {
+    padding: 20px 0px 10px;
+}
+
+@media only screen and (max-width: 770px) {
+
+    .lc-text.lc-text_column_l.lc-text_width {
+        margin-top: 100px;
+    }
+
+    #tabs-content .lc-text-block_bpsize_s24,
+    #faq .lc-text-block_size_s24 {
+        font-size: 20px;
+    }
+
+    #tabs-content .lc-text-block_bpsize_s20,
+    #faq .lc-text-block_bpsize_s20 {
+        font-size: 18px;
+    }
+
+    #cards .lc-text-block_bpsize_s24,
+    .lc-text-block_bpsize_s28 {
+        font-size: 22px;
+    }
+
+    .lc-text-block_size_s42 {
+        font-size: 28px;
+    }
+
+    .lc-text.lc-text_column_l.lc-text_width {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .lc-tabs__icon {
+        width: 180px;
+        height: 160px;
+    }
+
+    .lc-tabs__tab.lc-tabs__tab_theme_textWithIcon {
+        margin: 4px;
+    }
+
+    .lc-tabs_with-paddings .lc-tabs__tab {
+        padding: 20px 5px;
+    }
+
+    .lc-features__items {
+        justify-content: center;
+    }
+
+    #tabs-content .lc-features__items .lc-features__col_3 {
+        margin: 10px;
+        width: 47%;
+    }
+
+    #cards .lc-features__back-side .lc-styled-text {
+        font-size: 18px;
+    }
+
+    #cards .lc-features__items .lc-features__col_3 {
+        width: 50%;
+    }
+
+    #tabs-text {
+        margin-bottom: -90px;
+    }
+
+    #cards-title {
+        margin-top: -50px;
+    }
+
+    #faq .lc-styled-text__text {
+        text-align: justify;
+    }
+
+    #faq {
+        padding: 10% 3% 20% 3%;
+    }
+
+    #faq .lc-spoiler-item__header {
+        padding: 2em 0 0.4em;
+    }
+
+    .lc-tabs__underline-container {
+        height: auto;
+    }
+}
