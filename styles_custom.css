@@ -73,9 +73,6 @@ body {
     height: 68px;
 }
 
-#tabs .lc-offsets {
-    padding-top: 0px !important;
-}
 
 
 
@@ -87,11 +84,6 @@ body {
     margin-top: 122px;
 }
 
-
-
-#tabs-content {
-    margin-top: 35px;
-}
 
 .lc-section .lc-tabs__container-wrapper {
     height: 400px;
@@ -118,9 +110,7 @@ body {
     padding-right: 0px;
 }
 
-#tabs-text .lc-offsets {
-    padding-bottom: 40px !important;
-}
+
 
 #tabs {
     display: flex;
@@ -214,8 +204,6 @@ body {
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-bottom: 5px;
-    margin-top: 20px;
 }
 
 #cards-title .lc-text.lc-text_column_l.lc-text_width {
@@ -274,10 +262,47 @@ body {
 }
 
 
-#cards-title .lc-offsets {
-    padding-bottom: 33px !important;
-    padding-top: 0px !important;
+#tabs,
+#cards,
+#cards-title,
+#faq {
+    padding: 30px 0 30px 0 !important;
 }
+
+
+#tabs-text .lc-offsets {
+    margin-bottom: -100px !important;
+}
+
+#tabs-content {
+    margin-top: -25px;
+
+}
+
+#tabs {
+    padding-bottom: 0px;
+    margin-bottom: -130px
+}
+
+#cards-title .lc-offsets {
+    width: 708.16px;
+    height: 80px;
+}
+
+#cards-title {
+    padding-bottom: 75px !important;
+    margin-top: -55px;
+}
+
+#cards .lc-offsets {
+    padding-bottom: 0px !important;
+}
+
+#faq .lc-offsets {
+    padding-top: 38px !important;
+    padding-bottom: 38px !important;
+}
+
 
 #cards .lc-features__base-wrapper {
     padding: 0px;
@@ -394,10 +419,7 @@ body {
     padding-bottom: 81px;
 }
 
-#faq .lc-offsets {
-    padding-bottom: 35px !important;
-    padding-top: 30px !important;
-}
+
 
 #faq .lc-spoiler_align_center .lc-spoiler__items {
     margin-right: 10px;
@@ -408,9 +430,7 @@ body {
     color: #fff;
 }
 
-#tabs .lc-offsets {
-    margin-bottom: -30px;
-}
+
 
 .lc-footer-columns__bottom-level {
     justify-content: center;
@@ -445,6 +465,207 @@ body {
 
 #icon-burder {
     display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+    .service_turbo-lpc .lc-section {
+        max-width: none;
+        width: 100%;
+    }
+
+    .service_turbo-lpc .lc-section {
+        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+
+    #tabs-content .lc-features__items {
+        margin-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .lc-header-lpc__menu {
+        margin-right: 50px;
+    }
+
+    #faq {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .service_turbo-lpc .lc-section {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #tabs .lc-tabs__tab {
+        width: calc(445px - 40px);
+
+    }
+
+    #tabs-content .lc-features__items .lc-features__col_3 {
+        width: calc(445px - 40px);
+    }
+
+
+    #cards .lc-features__item {
+        width: calc(445px - 40px);
+        height: calc(240px - 20px) !important;
+        border-radius: 16px;
+        padding: 0;
+    }
+
+    #cards .lc-features__back-side .lc-features__scrollable {
+        width: calc(445px - 40px) !important;
+        height: calc(240px - 20px) !important;
+        padding: 40px 32px 40px 32px !important;
+        gap: 10px;
+        border-radius: 16px;
+        background-color: #fff;
+    }
+
+    #cards .lc-features__back-side .lc-styled-text {
+        color: #282828;
+        background-color: #fff;
+        width: 342px !important;
+        height: 160px !important;
+    }
+
+    #cards .lc-text-block_bpsize_s24 {
+        top: -4.5rem
+    }
+
+    .lc-section .lc-tabs__container-wrapper {
+        justify-content: center;
+    }
+
+    .lc-tabs__tab .lc-text-block_bpsize_s28 {
+        padding-left: 40.88px;
+    }
+
+    #tabs-content .lc-features__items {
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .lc-tabs__tab .lc-text-block_bpsize_s28 {
+        width: 333.26px;
+        height: 32px;
+        padding-left: 17.88px;
+
+    }
+
+    #tabs .lc-tabs__tab {
+        width: calc(445px - 80px);
+        height: calc(360px - 10px);
+    }
+
+
+    #tabs-content .lc-features__items .lc-features__col_3 {
+        width: calc(445px - 80px);
+    }
+
+    #cards .lc-features__item {
+        width: calc(445px - 80px);
+        height: calc(240px - 35px) !important;
+    }
+
+    #cards .lc-features__back-side .lc-features__scrollable {
+        width: calc(445px - 80px) !important;
+        height: calc(240px - 40px) !important;
+        padding: 40px 25px 40px 25px !important;
+    }
+
+    #cards .lc-features__back-side .lc-styled-text {
+        width: 318px !important;
+        height: 160px !important;
+    }
+
+    #cards .lc-text-block_bpsize_s24 {
+        top: -5.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .lc-header-lpc__menu {
+        margin-right: 310px;
+    }
+
+    .lc-tabs__tab .lc-text-block_bpsize_s28 {
+        padding-left: 0;
+    }
+
+    #tabs .lc-tabs__tab {
+        width: calc(445px - 120px);
+        height: calc(360px - 10px);
+    }
+
+    .lc-section .lc-tabs__container-wrapper {
+        justify-content: center;
+    }
+
+    #tabs-content .lc-features__items .lc-features__col_3 {
+        width: calc(445px - 110px);
+    }
+
+    #cards .lc-features__item {
+        width: calc(445px - 115px);
+        height: calc(240px - 55px) !important;
+    }
+
+    #cards .lc-features__back-side .lc-features__scrollable {
+        width: calc(445px - 110px) !important;
+        height: calc(240px - 60px) !important;
+        padding: 40px 25px 40px 25px !important;
+    }
+
+    .lc-tabs__icon {
+        width: 255px;
+    }
+
+    #tabs-content .lc-features__items {
+        width: 1320px !important;
+
+    }
+
+    #tabs-content {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: stretch;
+        margin-left: 0;
+    }
+
+    #tabs-content .lc-features__items .lc-features__col_3 {
+        width: calc(445px - 120px);
+    }
+
+    #cards .lc-text-block_bpsize_s24 {
+        top: -6rem;
+    }
+
+    #cards .lc-features__back-side .lc-features__scrollable {
+        width: calc(445px - 115px) !important;
+        height: calc(240px - 60px) !important;
+        padding: 30px 25px 30px 25px !important;
+    }
+
+    #cards .lc-features__back-side .lc-styled-text {
+        width: 300px !important;
+        height: 160px !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
