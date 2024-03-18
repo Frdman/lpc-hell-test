@@ -30,6 +30,114 @@ body {
     justify-content: center;
 }
 
+#tabs-text .lc-text-block h1 {
+    width: 658.21px;
+    height: 80px;
+    letter-spacing: normal;
+    margin-left: 19.1%;
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#tabs-text {
+    display: grid;
+    justify-content: space-around;
+}
+
+
+
+#tabs-text .lc-text p {
+    stroke-width: 1068.54px;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+#tabs-text .lc-text-block p {
+    margin-top: 20px;
+}
+
+#tabs-text .lc-text-block_bpsize_s28 {
+    line-height: 32px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+#tabs-text .lc-text-block p {
+    width: 1068.54px;
+    height: 68px;
+}
+
+#tabs .lc-offsets {
+    padding-top: 0px !important;
+}
+
+
+
+.service_turbo-lpc .lc-section {
+    max-width: 1440px;
+}
+
+.lc-text.lc-text_column_l.lc-text_width {
+    margin-top: 122px;
+}
+
+
+
+#tabs-content {
+    margin-top: 35px;
+}
+
+.lc-section .lc-tabs__container-wrapper {
+    height: 400px;
+}
+
+.lc-tabs__tab .lc-text-block_bpsize_s28 {
+    width: 333.26px;
+    height: 32px;
+    padding-top: 32px;
+    padding-left: 55.88px;
+
+}
+
+#tabs .lc-tabs__tab {
+    width: 445px;
+    height: 360px;
+    border-radius: 16px;
+    padding-top: 32px;
+    padding: 35px 0px 0px 0px;
+    margin: 0px 6px 0px 6px;
+}
+
+.lc-tabs__tab_align_left .lc-tabs__icon {
+    padding-right: 0px;
+}
+
+#tabs-text .lc-offsets {
+    padding-bottom: 40px !important;
+}
+
+#tabs {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#tabs .lc-tabs__tab .lc-text-block_bpsize_s28 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
 .lc-header-lpc__wrapper_border {
     background-color: #282828;
     border: 0px;
@@ -47,10 +155,26 @@ body {
 }
 
 #tabs-content .lc-features__items .lc-features__col_3 {
-    margin: 5px;
-    width: 32.42%;
     background-color: #fff;
+    width: 445px;
+    height: 163px;
+    padding: 40px 32px 40px 32px;
     border-radius: 16px;
+}
+
+#tabs-content .lc-features__items {
+    gap: 20px;
+    height: 348px;
+    width: 1375px !important;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+    margin-left: 8px;
+}
+
+#tabs-content .lc-features__item-wrap_feature-back {
+    padding: 0px;
 }
 
 .lc-navigation-menu .lc-navigation-menu__link_active {
@@ -74,12 +198,37 @@ body {
 }
 
 .lc-tabs__icon {
-    width: 250px;
+    width: 300px;
     height: 250px;
 }
 
 .lc-features__base-wrapper {
     max-width: none;
+}
+
+
+#cards-title {
+    display: flex;
+    width: 708.16px;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#cards-title .lc-text.lc-text_column_l.lc-text_width {
+    --text-width: 85% !important;
+}
+
+#cards-title .lc-text-block h1 {
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 #cards-group [data-spacer-id="image"] {
@@ -97,7 +246,7 @@ body {
     align-content: center;
     justify-content: center;
     align-items: center;
-    top: -5.5rem;
+    top: -4rem;
     font-size: 30px;
     line-height: 32px;
     font-family: Roboto;
@@ -108,22 +257,48 @@ body {
     top: 0px;
 }
 
-#cards .lc-features__item {
-    padding: 10px;
+#cards {
+    width: 1376px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
 }
+
+#cards .lc-features__item {
+    width: 445px;
+    height: 240px;
+    border-radius: 16px;
+    padding: 0;
+}
+
+
+#cards-title .lc-offsets {
+    padding-bottom: 33px !important;
+    padding-top: 0px !important;
+}
+
+#cards .lc-features__base-wrapper {
+    padding: 0px;
+}
+
+#cards .lc-features__items {
+    gap: 20px;
+    margin: 0;
+}
+
 
 #cards .lc-features__back-side .lc-styled-text {
     color: #282828;
     background-color: #fff;
-    padding: 15px 15px;
-    height: 169px;
-    border-radius: 16px;
-    position: fixed;
-    /** Тут в карточках, по-хорошему, нужно делать текст не больше 6 строк, но это уже задача копирайтера **/
+    width: 381px;
+    height: 160px;
 }
 
+
 .lc-section .lc-tabs__container-wrapper {
-    display: grid;
+    display: flex;
     justify-items: stretch;
     align-content: space-evenly;
     align-items: center;
@@ -134,8 +309,7 @@ body {
     text-align: center;
     align-items: center;
     padding: 10px;
-    width: 30%;
-    height: 100%;
+
 }
 
 .lc-tabs__icon {
@@ -170,31 +344,64 @@ body {
     color: #fff;
 }
 
-.lc-tabs_with-paddings .lc-tabs__tab {
-    padding: 12px 12px;
-}
 
 .lc-tabs__tab.lc-tabs__tab_theme_textWithIcon {
-    border: 0px solid transparent;
+    border: 3px solid transparent;
     transition: 0.2s;
     border-radius: 16px;
-    margin: 0 6px 0 6px;
 }
 
-.lc-tabs__tab.lc-tabs__tab_theme_textWithIcon:hover {
-    border: 3px solid #c2f23c;
-    border-radius: 16px;
-    max-width: 31%;
+#tabs-content .lc-text-block_bpsize_s20 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
+#tabs-content .lc-text-block_bpsize_s24 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
 
-.lc-tabs__underline-container {
-    height: 320px;
-    width: 100%;
+}
+
+#tabs-content .lc-features__description {
+    padding-top: 6px;
 }
 
 #header {
     max-width: none;
+}
+
+#cards .lc-features__back-side .lc-features__scrollable {
+    width: 445px;
+    height: 240px;
+    padding: 40px 32px 40px 32px !important;
+    gap: 10px;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+
+
+#cards {
+    padding-bottom: 81px;
+}
+
+#faq .lc-offsets {
+    padding-bottom: 35px !important;
+    padding-top: 30px !important;
+}
+
+#faq .lc-spoiler_align_center .lc-spoiler__items {
+    margin-right: 10px;
+    margin-left: 15px;
 }
 
 #faq .lc-styled-text__text {
@@ -218,7 +425,7 @@ body {
 }
 
 #faq {
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 
 #faq .lc-icon {
@@ -250,7 +457,7 @@ body {
         display: none;
     }
 
-    .lc-header-lpc .lc-header-lpc__menu{
+    .lc-header-lpc .lc-header-lpc__menu {
         display: none;
     }
 
